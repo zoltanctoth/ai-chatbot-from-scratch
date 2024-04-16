@@ -1,0 +1,5 @@
+[tool.pylint]
+disable = ["line-too-long", "missing-module-docstring", "invalid-name", "missing-function-docstring", "missing-class-docstring", "dangerous-default-value"]
+
+[tool.flake8]
+max-line-length = 180
