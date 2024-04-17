@@ -1,0 +1,2 @@
+chainlit==1.0.503
+ctransformers==0.2.27
