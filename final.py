@@ -6,7 +6,7 @@ llm = AutoModelForCausalLM.from_pretrained(
 )
 
 SYSTEM = """
-You are an AI assistant that follows instruction extremely well. Help as much as you can. Give short answers. Use the context provided."
+You are an AI assistant that follows instruction extremely well. Help as much as you can. Give short answers. Use the context provided and don't mention that you use the context."
 """
 
 
@@ -18,9 +18,6 @@ def get_prompt(instruction, conversation_history=[]):
 
 
 history = []
-
-instruction = "What's the weight of an average male?"
-prompt = get_prompt(instruction)
 
 
 @cl.on_message

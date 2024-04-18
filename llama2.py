@@ -10,15 +10,7 @@ llm = AutoModelForCausalLM.from_pretrained(
     threads=multiprocessing.cpu_count(),
 )
 
-
-# def llm(prompt, stream=False):
-#     for w in "Hello, how can I help you today?":
-#        yield w
-
-
-SYSTEM = """
-You are an AI assistant that follows instruction extremely well. Help as much as you can. Give short answers. Use the context provided."
-"""
+SYSTEM = """You are an AI assistant that follows instruction extremely well. Help as much as you can. Give short answers. Use the context provided."""
 
 
 def get_prompt(instruction: str, conversation_history=[]) -> str:
@@ -52,7 +44,5 @@ async def on_message(message: cl.Message):
 
 
 if __name__ == "__main__":
-    print("Testing started")
     if len(sys.argv) > 1 and sys.argv[1] == "test":
-        print(llm("Say Hi and nothing else."))
-    print("Testing completed")
+        print(llm("Hi, how are you doing?"))

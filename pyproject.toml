@@ -3,3 +3,4 @@ disable = ["line-too-long", "missing-module-docstring", "invalid-name", "missing
 
 [tool.flake8]
 max-line-length = 180
+
