@@ -1,0 +1,6 @@
+ctransformers
+langchain
+chromadb
+sentence-transformers
+pypdf
+cryptography>=3.1

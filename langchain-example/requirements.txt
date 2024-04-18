@@ -1,0 +1,4 @@
+ctransformers
+langchain
+sentence-transformers
+chainlit
