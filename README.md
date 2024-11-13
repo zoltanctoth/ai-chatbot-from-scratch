@@ -3,10 +3,6 @@ Let's build a local chatbot with Orca-mini and Llama2 using low-level prompting.
 
 ![Screen Recording](.resources/demo-recording.gif)
 
-# Useful Links
-
-* [The Local LLM Crash Course on Udemy](https://www.udemy.com/course/the-local-llm-crash-course-build-a-hugging-face-ai-chatbot/?referralCode=EAD6017AA0001257DD9A)
-
 ## Resources
 * [Presentation Slides](https://docs.google.com/presentation/d/15QF9dAfK-6snUfSOsoU5ksjj5p4ouQ7QH71sf2wljj4/edit?usp=sharing)
 * [Hugging Face](https://huggingface.co/)
